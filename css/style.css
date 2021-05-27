@@ -27,16 +27,18 @@ a {
   background: linear-gradient(-135deg, #006ad5, #ff0080);
 }
 
+.conteiner {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+}
+
 /* ヘッダー */
 .page-header {
   background-color: rgba(0, 0, 0, 0.5);
   position: fixed;
   width: 100%;
-}
-
-.header-style {
-  width: 1170px;
-  margin: 0 auto;
+  z-index: 10;
 }
 
 .logo img {
@@ -71,6 +73,7 @@ a {
 }
 
 /* メイン */
+/* div1 */
 .background-Img {
   background-image: url(../images/haikei.jpg);
   background-size: cover;
@@ -81,7 +84,6 @@ a {
 
 .position {
   padding-top: 250px;
-  width: 1170px;
   height: 100%;
   margin: 0 auto;
 }
@@ -95,7 +97,7 @@ a {
 }
 
 .border {
-  background: linear-gradient(transparent 70%, rgb(255, 97, 158) 70%);
+  background: linear-gradient(transparent 70%, #FD0176 70%);
 }
 
 .position h2 {
@@ -119,10 +121,12 @@ a {
   margin-left: 6%;
   padding-left: 3%;
 }
+
 .flex-inner2 {
   width: 33%;
   padding-left: 3%;
 }
+
 .flex-inner3 {
   width: 33%;
 }
@@ -136,7 +140,6 @@ a {
   top: -50px;
   left: 46px;
 }
-/* .positionと.flexのクラス名要調整 */
 
 .far {
   font-size: 3rem;
@@ -151,5 +154,51 @@ a {
   margin-left: 569px;
 }
 
+/* div2 */
+.divblock2 {
+  background-image: url(../images/haikei2.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+}
 
+.speech {
+  position: relative;
+  padding: 25px 30px;
+  background-color: #038AF1;
+  display: inline-block;
+  margin: 40px 0 30px 117px;
+}
+
+.speech::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  left: 47px;
+  bottom: -10px;
+  border-top: 10px solid #038AF1;
+  border-right: 10px solid transparent;
+  border-left: 10px solid transparent;
+}
+
+.speech p {
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: normal;
+}
+
+.pa {
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin-left: 117px;
+  letter-spacing: 0.2343em;
+  line-height: 2rem;
+}
+
+.border2 {
+  border-bottom: 3px solid #038AF1;
+  font-size: 1.2rem;
+}
 /* 全体的にcss記述をもっと見やすくできないか検討 */
