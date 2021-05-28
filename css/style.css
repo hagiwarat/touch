@@ -145,11 +145,8 @@ a {
   font-size: 3rem;
 }
 
-.fas {
-  font-size: 2rem;
-}
-
 .fa-chevron-circle-down {
+  font-size: 2rem;
   margin-top: 93px;
   margin-left: 569px;
 }
@@ -201,4 +198,109 @@ a {
   border-bottom: 3px solid #038AF1;
   font-size: 1.2rem;
 }
+
+/* div3 */
+.divblock3 {
+  height: 552px;
+}
+
+.fa-award {
+  font-size: 2.2rem;
+  color: #fc0075;
+  position: relative;
+}
+
+.mogi {
+  padding-top: 19px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.circle {
+  width: 90px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 0 auto;
+  position: relative;
+  top: -30px;
+  background-color: #fff;
+}
+
+.circle h2 {
+  width: 100px;
+  text-align: center;
+  font-size: 1rem;
+  border-bottom: 1px solid #333;
+  padding-bottom: 11px;
+}
+
+.pi {
+  font-size: 18.7px;
+  font-weight: bold;
+  letter-spacing: 0.1602em;
+}
+
+.pu {
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 0.125em;
+  margin-bottom: 30px;
+}
+
+.pu span {
+  font-size: 2.1rem;
+  font-weight: bold;
+}
+
+.font-gradation {
+  background: -webkit-linear-gradient(45deg, #006ad5, #ff0080);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.pi, .pu {
+  text-align: center;
+}
+
+.yoko {
+  display: flex;
+  justify-content: center;
+}
+
+.yoko img {
+  margin-bottom: 3px;
+}
+
+.yoko-inner1, .yoko-inner2, .yoko-inner3 {
+  width: 27%;
+}
+
+.yoko-inner2, .yoko-inner3 {
+  margin-left: 20px;
+}
+
+.yoko-head {
+  font-size: 0.9rem;
+  color: #fc0075;
+  font-weight: bold;
+  margin-bottom: 7px;
+}
+
+.yoko-pa {
+  font-size: 0.8rem;
+  font-weight: normal;
+}
+
+/* div4 */
+.divblock4 {
+  /* background-image: url(../images/haikei3.jpg); */
+  background-color: tomato;
+}
+
+
+
+
+
+
+
 /* 全体的にcss記述をもっと見やすくできないか検討 */
