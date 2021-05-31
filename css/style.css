@@ -320,7 +320,6 @@ a {
 .mogi2 {
   text-align: center;
   padding-top: 20px;
-  /* margin-bottom: 9px; */
 }
 
 .check {
@@ -367,8 +366,98 @@ a {
   line-height: 32px;
 }
 
+/* div5 */
+.divblock5 {
+  background-image: url(../images/naiyou.jpg);
+  background-position: bottom center;
+  background-size: cover;
+  height: 690px;
+}
 
+.fa-file-alt {
+  margin-right: -0.27rem;
+}
 
+.divblock5 h2 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 30px;
+  letter-spacing: 0.1732em;
+  margin-bottom: 20px;
+}
+
+.pupupu {
+  font-size: 0.8rem;
+  text-align: center;
+  line-height: 20px;
+  margin-bottom: 15px;
+}
+
+table {
+  width: 819px;
+  height: 318px;
+  margin: 0 auto;
+  font-size: 0.8rem;
+  text-align: center;
+  border-spacing: 4px;
+  margin-bottom: 15px;
+}
+
+.size {
+  font-size: 0.725rem;
+}
+
+th, td {
+  border: 1px solid #038AF1;
+  border-radius: 5px;
+}
+
+th {
+  background-color: #D4E5FF;
+}
+
+.second td:not(:last-child){
+  background-color: #F6E5F7;
+}
+
+.p13, .p12 {
+  text-align: center;
+  line-height: 20px;
+}
+
+.p13 {
+  font-size: 0.8rem;
+  margin-bottom: 10px;
+}
+
+.p12 {
+  font-size: 0.72rem;
+  margin-bottom: 30px;
+}
+
+.div5-gradation {
+  width: 400px;
+  height: 60px;
+  text-align: center;
+  padding-top: 20px;
+  margin: 0 auto;
+  border-radius: 60px;
+  position: relative;
+}
+
+.div5-gradation a {
+  font-size: 0.93rem;
+  color: #fff;
+  letter-spacing: 0.032em;
+  line-height: 20px;
+}
+
+.fa-angle-right {
+  position: absolute;
+  right: 39.5px;
+  font-size: 1.25rem;
+}
 
 
 
