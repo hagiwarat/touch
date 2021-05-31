@@ -141,7 +141,7 @@ a {
   left: 46px;
 }
 
-.far {
+.fa-id-badge {
   font-size: 3rem;
 }
 
@@ -293,10 +293,79 @@ a {
 
 /* div4 */
 .divblock4 {
-  /* background-image: url(../images/haikei3.jpg); */
-  background-color: tomato;
+  background-image: url(../images/haikei3.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 539px;
+  /* background-color: tomato; */
 }
 
+.fa-clipboard {
+  color: #038af1;
+  font-size: 1.875rem;
+  position: relative;
+}
+
+.circle2 {
+  background-color: #FCF5E8;
+  background: linear-gradient(#fcf5e8 30px, transparent 30px);
+  width: 90px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 0 auto;
+  position: relative;
+  top: -30px;
+}
+
+.mogi2 {
+  text-align: center;
+  padding-top: 20px;
+  /* margin-bottom: 9px; */
+}
+
+.check {
+  width: 100px;
+  text-align: center;
+  font-size: 1rem;
+  border-bottom: 1px solid #333;
+  padding-bottom: 11px;
+  position: relative;
+  margin: 0 auto;
+  top: -51px;
+  margin-bottom: -41px;
+}
+
+.papapa {
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 0.208em;
+  line-height: 40px;
+  margin-bottom: 30px;
+}
+
+.pipipi {
+  font-size: 0.8rem;
+  text-align: center;
+  line-height: 30px;
+  letter-spacing: 3px;
+  margin-bottom: 30px;
+}
+
+.bluebox {
+  width: 610px;
+  height: 130px;
+  border: 2px solid #038AF1;
+  margin: 0 auto;
+  padding: 15px 30px;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.5);
+  margin-bottom: 30px;
+}
+
+.bluebox p {
+  font-weight: bold;
+  line-height: 32px;
+}
 
 
 
