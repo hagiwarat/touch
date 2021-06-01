@@ -533,6 +533,95 @@ th {
   font-size: 0.8rem;
 }
 
+/* div7 */
+.fa-headset {
+  font-size: 2.2rem;
+  color: #fc0075;
+}
+
+.oe {
+  font-size: 1.17rem;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 0.1605em;
+  line-height: 37px;
+  margin-bottom: 20px;
+}
+
+.foo {
+  display: flex;
+  justify-content: center;
+  width: 1053px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.foo img {
+  width: 50%;
+}
+
+.baloon {
+  background-color: #FC0075;
+  color: #fff;
+  position: relative;
+  padding: 73.7px;
+}
+
+.baloon::before {
+  content: "";
+  position: absolute;
+  top: 235px;
+  left: -37px;
+  margin-top: -13px;
+  border: 15px solid transparent;
+  border-right: 22px solid #fc0075;
+}
+
+.baloon h3 {
+  font-size: 1.2rem;
+  line-height: 28.8px;
+  margin-bottom: 10px;
+}
+
+.baloon p {
+  font-size: 0.8rem;
+  line-height: 25px;
+}
+
+.tube {
+  display: block;
+  margin: 0 auto;
+  width: 600px;
+  height: 338px;
+  margin-bottom: 34px;
+}
+
+.text {
+  width: 400px;
+  height: 60px;
+  border-radius: 60px;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-left: 50px;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.text a {
+  color: #fff;
+  font-size: 1rem;
+  line-height: 20px;
+}
+
+.gradation2 {
+  background: linear-gradient(45deg, #ff9100, #ffbb00);
+}
+
+/* div8 */
+.divblock8 {
+  background-color: tomato;
+}
+
 
 
 
