@@ -459,6 +459,82 @@ th {
   font-size: 1.25rem;
 }
 
+/* div6 */
+.divblock6 {
+  background-color: #038AF1;
+  color: #fff;
+}
+
+.circle3 {
+  background-color: #038af1;
+  width: 90px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 0 auto;
+  position: relative;
+  top: -30px;
+}
+
+.mogi3 {
+  text-align: center;
+  position: relative;
+  margin-top: -85px;
+  margin-left: -0.5px;
+  margin-bottom: 9px;
+}
+
+.fa-list-ul {
+  font-size: 1.85rem;
+}
+
+.divblock6 h2 {
+  position: relative;
+  width: 100px;
+  font-size: 1rem;
+  border-bottom: 1px solid #fff;
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 11px;
+  margin-bottom: 19px;
+}
+
+.p19 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 0.131em;
+  margin-bottom: 20px;
+}
+
+.flow-flex {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 1053px;
+}
+
+.flow-inner {
+  width: 25%;
+  margin: 0 25px;
+  margin-bottom: 70px;
+}
+
+.flow-inner img {
+  border-radius: 5px;
+}
+
+.flow-inner h3 {
+  font-weight: bold;
+  font-size: 1rem;
+  margin: 10px 0;
+}
+
+.flow-inner p {
+  font-size: 0.8rem;
+}
+
+
+
 
 
 /* 全体的にcss記述をもっと見やすくできないか検討 */
