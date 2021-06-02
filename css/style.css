@@ -581,6 +581,7 @@ th {
   font-size: 1.2rem;
   line-height: 28.8px;
   margin-bottom: 10px;
+  font-weight: bold;
 }
 
 .baloon p {
@@ -619,11 +620,31 @@ th {
 
 /* div8 */
 .divblock8 {
-  background-color: tomato;
+  background-image: url(../images/mensetu.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 336px;
+  color: #fff;
+  /* background-color: tomato; */
 }
 
+.divblock8 h2 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  line-height: 28px;
+  letter-spacing: 0.13em;
+  margin-bottom: 20px;
+}
 
+.divblock8 p {
+  font-size: 0.8rem;
+  line-height: 25px;
+  margin-bottom: 15px;
+}
 
-
+.position2 {
+  padding-top: 50px;
+  text-align: center;
+}
 
 /* 全体的にcss記述をもっと見やすくできないか検討 */
