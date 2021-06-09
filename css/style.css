@@ -15,7 +15,7 @@ img {
 
 li {
   list-style: none;
-  padding: 10px;
+  padding: 0 10px;
   font-size: 0.9rem;
 }
 
@@ -62,6 +62,11 @@ a {
 .header-list {
   display: flex;
   justify-content: space-between;
+}
+
+.header-list a {
+  display: block;
+  line-height: 80px;
 }
 
 .head-gradation {
@@ -813,6 +818,93 @@ th {
   color: #fc0075;
   text-decoration: underline;
 }
+
+/* div11 */
+.divblock11 {
+  background-image: url(../images/juken.jpg);
+  background-size: cover;
+  background-position: top;
+  height: 483px;
+  color: #fff;
+  text-align: center;
+}
+
+.mosu {
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding-top: 59px;
+  letter-spacing: 0.13em;
+  margin-bottom: 20px;
+}
+
+.fa-address-card {
+  margin-right: -8px;
+}
+
+.mosu-p {
+  font-size: 0.8rem;
+  line-height: 30px;
+  margin-bottom: 50px;
+}
+
+.form-flex {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+.form-item {
+  width: 315px;
+  height: 153px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  color: #000;
+  text-align: center;
+  padding-top: 18px;
+}
+
+.form-item:not(:first-child) {
+  margin-left: 36px;
+}
+
+.form-item h2 {
+  font-size: 1.25rem;
+  font-weight: normal;
+  margin-bottom: 4px;
+}
+
+select {
+  font-size: 0.9rem;
+  padding: 0 1px;
+  margin-bottom: 13px;
+}
+
+.lv5-3s {
+  width: 243px;
+}
+
+.lv2-1s {
+  width: 257px;
+}
+
+.tex-s {
+  width: 60px;
+  margin-left: -2px;
+}
+
+form img {
+  width: 122px;
+  margin-left: -6px;
+}
+
+.d11 {
+  font-size: 0.8rem;
+}
+
+
+
+
+
 
 
 
