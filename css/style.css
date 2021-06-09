@@ -69,12 +69,25 @@ a {
   line-height: 80px;
 }
 
+.header-list li {
+  transition: 0.4s;
+}
+
+.header-list li:hover {
+  background-color: rgba(255, 255, 255, 0.333);
+}
+
 .head-gradation {
   width: 156px;
   height: 40px;
   border-radius: 40px;
   text-align: center;
   line-height: 40px;
+  transition: 0.5s;
+}
+
+.head-gradation:hover {
+  transform: scale(0.9);
 }
 
 /* メイン */
@@ -441,27 +454,29 @@ th {
   margin-bottom: 30px;
 }
 
-.div5-gradation {
+.div5-gra {
+  font-size: 0.96rem;
   width: 400px;
   height: 60px;
-  text-align: center;
+  border-radius: 60px;
   padding-top: 20px;
   margin: 0 auto;
-  border-radius: 60px;
   position: relative;
+  color: #fff;
+  line-height: 20px;
+  display: block;
+  text-align: center;
+  transition: 0.5s;
 }
 
-.div5-gradation a {
-  font-size: 0.93rem;
-  color: #fff;
-  letter-spacing: 0.032em;
-  line-height: 20px;
+.div5-gra:hover {
+  transform: scale(0.9);
 }
 
 .fa-angle-right {
   position: absolute;
-  right: 39.5px;
-  font-size: 1.25rem;
+  right: 40px;
+  font-size: 1.3rem;
 }
 
 /* div6 */
@@ -611,12 +626,14 @@ th {
   padding-left: 50px;
   position: relative;
   margin-bottom: 30px;
+  color: #fff;
+  line-height: 20px;
+  display: block;
+  transition: 0.5s;
 }
 
-.text a {
-  color: #fff;
-  font-size: 1rem;
-  line-height: 20px;
+.text:hover {
+  transform: scale(0.9);
 }
 
 .gradation2 {
@@ -901,12 +918,39 @@ form img {
   font-size: 0.8rem;
 }
 
+/* フッター */
+.page-footer {
+  text-align: center;
+}
 
+.foo-w {
+  height: 192px;
+  padding-top: 40px;
+}
 
+.foo-w img {
+  width: 200px;
+  height: 56px;
+  margin-bottom: 3px;
+}
 
+.foo-w p {
+  margin-bottom: 7px;
+  color: #000;
+}
 
+.foo-w a {
+  font-size: 0.6rem;
+  color: #000;
+}
 
-
+.foo-b {
+  background-color: #000;
+  height: 50px;
+  color: #fff;
+  line-height: 50px;
+  font-size: 0.6rem;
+}
 
 
 
