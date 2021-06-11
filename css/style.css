@@ -481,6 +481,7 @@ th {
 .divblock6 {
   background-color: #038AF1;
   color: #fff;
+  padding-bottom: 70px;
 }
 
 .circle3 {
@@ -534,7 +535,6 @@ th {
 .flow-inner {
   width: 25%;
   margin: 0 25px;
-  margin-bottom: 70px;
 }
 
 .flow-inner img {
