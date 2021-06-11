@@ -203,6 +203,7 @@ a {
 
 .pa {
   position: relative;
+  display: inline-block;
   font-size: 0.8rem;
   font-weight: bold;
   left: 10%;
@@ -216,10 +217,6 @@ a {
 }
 
 /* div3 */
-.divblock3 {
-  height: 552px;
-}
-
 .fa-award {
   font-size: 2.2rem;
   color: #fc0075;
@@ -281,6 +278,7 @@ a {
 .yoko {
   display: flex;
   justify-content: center;
+  margin-bottom: 60px;
 }
 
 .yoko img {
