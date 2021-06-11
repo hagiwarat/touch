@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+@media screen and (max-width: 1000px) {
+  .head-gradation {
+    display: none;
+  }
+
+  .background-Img {
+    height: 600px;
+    padding-top: 180px;
+  }
+
+  .flex {
+    width: 95%;
+  }
+
+  .fa-chevron-circle-down {
+    margin-top: 80px;
+  }
+
+  .flow-flex {
+    flex-wrap: wrap;
+    width: 90%;
+  }
+
+  .flow-inner {
+    width: 45%;
+    margin: 10px auto;
+  }
+
+  .flow-inner h3 {
+    text-align: center;
+  }
+}
+
+
+
+
+
+
+
+
+
