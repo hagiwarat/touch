@@ -845,9 +845,9 @@ th {
   background-image: url(../images/juken.jpg);
   background-size: cover;
   background-position: top;
-  height: 483px;
   color: #fff;
   text-align: center;
+  padding-bottom: 65px;
 }
 
 .mosu {
@@ -874,17 +874,17 @@ th {
   max-width: 1053px;
   margin: 0 auto;
   margin-bottom: 24px;
+  width: 90%;
 }
 
 .form-item {
   width: 30%;
-  height: 153px;
   background-color: rgba(255, 255, 255, 0.5);
   border-radius: 10px;
   color: #000;
   text-align: center;
-  padding-top: 18px;
-  margin: 0 18px;
+  padding: 18px 20px 15px;
+  margin: 0 auto;
 }
 
 .form-item h2 {
