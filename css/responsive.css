@@ -93,6 +93,28 @@
   .border2 {
     font-size: 0.96rem;
   }
+
+  .pu {
+    margin-bottom: 20px;
+  }
+
+  .yoko {
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+
+  .yoko-inner1, .yoko-inner2, .yoko-inner3 {
+    margin: 0 auto;
+    width: 81%;
+  }
+
+  .yoko-inner1, .yoko-inner2 {
+    margin-bottom: 20px;
+  }
+
+  .yoko-head {
+    text-align: center;
+  }
 }
 
 
