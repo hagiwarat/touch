@@ -802,6 +802,7 @@ th {
 .question-inner {
   max-width: 936px;
   margin: 0 auto;
+  width: 80%;
 }
 
 .question {
@@ -825,12 +826,13 @@ th {
 .answer::before {
   content: "";
   position: absolute;
-  top: -13px;
-  left: 8%;
-  margin-left: -15px;
-  border: 7px solid transparent;
-  border-bottom: 7px solid #fff;
-  border-left: 7px solid #fff;
+  top: -11%;
+  left: 6%;
+  margin-left: 4px;
+  border: 10px solid transparent;
+  border-top: 11px solid transparent;
+  border-bottom: 11px solid #fff;
+  border-left: 10px solid #fff;
 }
 
 .an-a {
