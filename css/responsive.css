@@ -43,6 +43,18 @@
   .baloon p {
     line-height: 130%;
   }
+  
+  .form-flex {
+    flex-direction: column;
+  }
+
+  .form-item {
+    width: 400px;
+  }
+
+  .form-item:not(:last-child) {
+    margin-bottom: 40px;
+  }
 }
 
 
