@@ -85,6 +85,14 @@
   .flex-p1, .flex-p2, .flex-p3 {
     font-size: 0.7rem;
   }
+
+  .speech, .pa {
+    left: 5%;
+  }
+
+  .border2 {
+    font-size: 0.96rem;
+  }
 }
 
 
