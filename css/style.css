@@ -688,7 +688,6 @@ th {
 .vo-flex {
   display: flex;
   justify-content: center;
-  height: 376px;
   margin-bottom: 90px;
 }
 
@@ -756,6 +755,7 @@ th {
 .pin {
   font-size: 0.8rem;
   padding: 0 30px;
+  margin-bottom: 30px;
 }
 
 /* div10 */
