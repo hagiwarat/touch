@@ -57,7 +57,35 @@
   }
 }
 
+@media screen and (max-width: 670px) {
+  nav {
+    display: none;
+  }
 
+  .posi-p {
+    font-size: 0.9rem;
+    letter-spacing: normal;
+  }
+
+  .flex {
+    width: 90%;
+    text-align: center;
+  }
+
+  .ara {
+    float: none;
+    font-size: 2.1rem;
+    margin-bottom: 10px;
+  }
+
+  .flex-inner1 {
+    margin: 0;
+  }
+
+  .flex-p1, .flex-p2, .flex-p3 {
+    font-size: 0.7rem;
+  }
+}
 
 
 
