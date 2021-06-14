@@ -31,6 +31,18 @@
   .flow-inner h3 {
     text-align: center;
   }
+
+  .baloon {
+    padding: 5%;
+  }
+
+  .baloon h3 {
+    font-size: 0.96rem;
+  }
+
+  .baloon p {
+    line-height: 130%;
+  }
 }
 
 

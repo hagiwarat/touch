@@ -530,6 +530,7 @@ th {
   justify-content: center;
   margin: 0 auto;
   max-width: 1053px;
+  width: 90%;
 }
 
 .flow-inner {
@@ -572,6 +573,7 @@ th {
   max-width: 1053px;
   margin: 0 auto;
   margin-bottom: 40px;
+  width: 90%;
 }
 
 .foo img {
@@ -582,29 +584,28 @@ th {
   background-color: #FC0075;
   color: #fff;
   position: relative;
-  padding: 73.7px;
+  padding: 7%;
 }
 
 .baloon::before {
   content: "";
   position: absolute;
-  top: 235px;
-  left: -37px;
-  margin-top: -13px;
+  top: 60%;
+  left: -7%;
   border: 15px solid transparent;
   border-right: 22px solid #fc0075;
 }
 
 .baloon h3 {
   font-size: 1.2rem;
-  line-height: 28.8px;
+  line-height: 150%;
   margin-bottom: 10px;
   font-weight: bold;
 }
 
 .baloon p {
   font-size: 0.8rem;
-  line-height: 25px;
+  line-height: 200%;
 }
 
 .tube {
