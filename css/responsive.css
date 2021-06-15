@@ -213,5 +213,13 @@
   .vo-wm {
     margin-bottom: 60px;
   }
+
+  .question-inner {
+    width: 90%;
+  }
+
+  .answer {
+    padding: 4%;
+  }
 }
 
