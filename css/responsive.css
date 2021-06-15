@@ -221,5 +221,23 @@
   .answer {
     padding: 4%;
   }
+
+  .mosu {
+    letter-spacing: 0.03em;
+  }
+
+  .fa-address-card {
+    margin-right: -6px;
+  }
+
+  .mosu-p {
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+
+  .mosu-p br {
+    display: none;
+  }
 }
 
