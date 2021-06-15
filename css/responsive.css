@@ -163,6 +163,39 @@
   .flow-inner {
     width: 90%;
   }
+
+  .foo {
+    flex-direction: column;
+  }
+
+  .foo img {
+    width: 100%;
+  }
+
+  .baloon::before {
+    top: -16%;
+    left: 30%;
+    transform: rotate(90deg);
+  }
+
+  .baloon h3 {
+    text-align: center;
+    margin-bottom: 16px;
+  }
+
+  .tube {
+    width: 420px;
+    height: 236px;
+    margin-bottom: 24px;
+  }
+
+  .text {
+    width: 300px;
+    font-size: 0.8rem;
+    padding-left: 30px;
+    padding-top: 22px;
+    line-height: 15px;
+  }
 }
 
 
