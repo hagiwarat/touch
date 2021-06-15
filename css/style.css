@@ -384,7 +384,7 @@ a {
   background-image: url(../images/naiyou.jpg);
   background-position: bottom center;
   background-size: cover;
-  height: 690px;
+  padding-bottom: 70px;
 }
 
 .fa-file-alt {
@@ -404,6 +404,8 @@ a {
   font-size: 0.8rem;
   text-align: center;
   line-height: 20px;
+  width: 90%;
+  margin: 0 auto;
   margin-bottom: 15px;
 }
 

@@ -141,6 +141,20 @@
   .p12 {
     margin-bottom: 30px;
   }
+
+  .div5-gra {
+    width: 300px;
+    font-size: 0.8rem;
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 22px;
+    line-height: 15px;
+  }
+
+  .fa-angle-right {
+    right: 10%;
+    font-size: 1.05rem;
+  }
 }
 
 
